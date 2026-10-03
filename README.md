@@ -1,1 +1,144 @@
 # Happy-birthday-mishika-
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#140b24">
+<title>06 October — A Little Universe For My Sister 💗</title>
+<style>
+:root{--bg:#0e0718;--ink:#fff8ff;--muted:#d9c8e5;--pink:#ff6fae;--rose:#ff3d7f;--violet:#8d6bff;--gold:#ffd66b;--card:rgba(255,255,255,.09);--line:rgba(255,255,255,.16);--shadow:0 22px 70px rgba(0,0,0,.38)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 20% 10%,#34204e 0,#140b24 32%,#08050e 100%);color:var(--ink);font-family:Georgia,serif;overflow-x:hidden}button,input{font:inherit}.hidden{display:none!important}.screen{min-height:100svh;position:relative;display:flex;align-items:center;justify-content:center;padding:28px 18px;overflow:hidden}.stars,.hearts{position:fixed;inset:0;pointer-events:none;z-index:0}.star{position:absolute;width:3px;height:3px;border-radius:50%;background:white;opacity:.7;animation:twinkle 2.5s infinite alternate}.heart{position:absolute;color:#ff82b8;animation:float 8s linear infinite;opacity:.45;font-size:20px}@keyframes twinkle{to{opacity:.15;transform:scale(.5)}}@keyframes float{from{transform:translateY(105vh) rotate(0)}to{transform:translateY(-15vh) rotate(360deg)}}
+.wrap{width:min(1000px,100%);position:relative;z-index:2}.center{text-align:center}.eyebrow{letter-spacing:.22em;text-transform:uppercase;font:700 12px system-ui;color:#ffd5e7}.title{font-size:clamp(42px,8vw,82px);line-height:.98;margin:14px 0;background:linear-gradient(90deg,#fff,#ffc4df,#fff);-webkit-background-clip:text;color:transparent;text-shadow:0 0 35px #ff4d9b44}.sub{font:500 16px/1.7 system-ui;color:var(--muted);max-width:680px;margin:0 auto}.btn{border:1px solid #ffffff33;color:white;background:linear-gradient(135deg,#ff4d9b,#7d5cff);border-radius:999px;padding:13px 21px;cursor:pointer;box-shadow:0 12px 35px #0005;transition:.25s;font-weight:800}.btn:hover{transform:translateY(-3px);box-shadow:0 18px 40px #0007}.ghost{background:#ffffff0d}.tiny{font:12px system-ui;color:#cbbbd5}
+/* Gate */
+.gate{width:min(720px,96vw);text-align:center}.doorframe{height:min(570px,74vh);width:min(430px,80vw);margin:20px auto 28px;position:relative;perspective:1000px}.door{position:absolute;inset:0;border-radius:24px 24px 8px 8px;background:linear-gradient(90deg,#4b1f54,#b04d78 48%,#5c244f);border:8px solid #d6a9c0;box-shadow:inset 0 0 0 6px #5a294c,0 35px 80px #0009;transform-origin:left center;transition:1.4s cubic-bezier(.7,-.05,.2,1);z-index:3}.door.open{transform:rotateY(-108deg)}.door:before{content:"";position:absolute;inset:35px;border:2px solid #ffd88d55;border-radius:15px}.knob{position:absolute;right:30px;top:52%;width:18px;height:18px;border-radius:50%;background:#ffd66b;box-shadow:0 0 15px #ffd66b}.doorText{position:absolute;inset:0;display:grid;place-items:center;font-size:30px}.heaven{position:absolute;inset:0;border-radius:24px;background:radial-gradient(circle at 50% 30%,#fff8d6,#ffbadc 35%,#9c6dff 75%,#1a0c2b);display:grid;place-items:center;overflow:hidden}.heaven:after{content:"✦  ✧  ✦  ✧  ✦";font-size:40px;letter-spacing:18px;opacity:.65}.datebox{display:flex;gap:9px;justify-content:center;flex-wrap:wrap}.datebox input{width:260px;border:1px solid #fff3;border-radius:14px;background:#ffffff0d;color:#fff;padding:13px 16px;outline:none;text-align:center}.error{height:20px;color:#ff9cbc;font:13px system-ui;margin:9px}
+/* common cards */
+.section{padding:85px 18px}.card{background:linear-gradient(135deg,#ffffff12,#ffffff06);border:1px solid var(--line);border-radius:28px;padding:26px;box-shadow:var(--shadow);backdrop-filter:blur(10px)}.section h2{text-align:center;font-size:clamp(32px,6vw,58px);margin:0 0 12px}.sectionLead{text-align:center;color:var(--muted);font:15px/1.7 system-ui;max-width:680px;margin:0 auto 30px}.chapter{font:700 12px system-ui;letter-spacing:.18em;color:#ff9fc8;text-transform:uppercase}.divider{width:100px;height:3px;margin:20px auto;background:linear-gradient(90deg,transparent,#ff78b6,transparent)}
+/* balloons */
+.balloonGrid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;align-items:end}.balloon{height:150px;position:relative;cursor:pointer;transition:.25s}.balloon:hover{transform:translateY(-8px)}.balloonBody{width:85px;height:105px;border-radius:50% 50% 45% 45%;margin:auto;background:var(--c);box-shadow:inset -13px -12px 20px #0003,0 12px 20px #0004;position:relative}.balloonBody:after{content:"";position:absolute;bottom:-9px;left:38px;border-left:5px solid transparent;border-right:5px solid transparent;border-top:12px solid var(--c)}.string{height:45px;border-left:1px solid #fff8;margin:auto;width:1px}.wishPop{position:fixed;z-index:20;left:50%;top:50%;transform:translate(-50%,-50%) scale(.8);opacity:0;pointer-events:none;width:min(420px,88vw);padding:28px;border-radius:25px;background:#190d2ceF;border:1px solid #fff4;text-align:center;transition:.3s;box-shadow:0 25px 90px #000}.wishPop.show{opacity:1;transform:translate(-50%,-50%) scale(1)}.wishPop b{font-size:24px}.spark{position:fixed;z-index:19;pointer-events:none;font-size:22px;animation:spark 900ms forwards}@keyframes spark{to{transform:translate(var(--x),var(--y)) scale(.2) rotate(260deg);opacity:0}}
+/* puzzle */
+.puzzle{width:min(330px,86vw);display:grid;grid-template-columns:repeat(3,1fr);gap:5px;margin:22px auto}.tile{aspect-ratio:1;border:0;border-radius:10px;background:#ff78b6;color:#fff;font-weight:900;font-size:25px;cursor:pointer;box-shadow:inset 0 0 0 1px #fff4}.tile.blank{background:#ffffff0d;border:1px dashed #fff4}.status{text-align:center;font:14px system-ui;color:#e9d8ef}.success{font-size:25px;text-align:center;color:#ffe2a1;animation:pop .5s}@keyframes pop{from{transform:scale(.6);opacity:0}}
+/* quiz */
+.quiz{max-width:700px;margin:auto}.q{padding:20px;border-radius:20px;background:#ffffff08;border:1px solid #fff2;margin:14px 0}.q h3{margin:0 0 12px;font-size:18px}.options{display:grid;gap:8px}.opt{padding:11px 14px;border-radius:13px;border:1px solid #fff2;background:#ffffff08;color:#fff;text-align:left;cursor:pointer}.opt.selected{background:#ff5f9b44;border-color:#ff89bb}.result{text-align:center;margin-top:18px;min-height:28px;font-weight:700}
+/* gift */
+.gifts{display:flex;justify-content:center;gap:22px;flex-wrap:wrap}.gift{width:160px;height:150px;position:relative;cursor:pointer;transform-style:preserve-3d;transition:.35s}.gift:hover{transform:translateY(-9px) rotate(-2deg)}.box{position:absolute;left:18px;right:18px;bottom:8px;height:100px;background:linear-gradient(#ff6fae,#d92d70);border-radius:8px;box-shadow:0 20px 35px #0006}.lid{position:absolute;left:10px;right:10px;top:20px;height:28px;background:#ff8ec0;border-radius:7px;z-index:2}.ribbonV{position:absolute;left:68px;bottom:8px;width:23px;height:100px;background:#ffd66b;z-index:3}.ribbonH{position:absolute;left:18px;right:18px;top:20px;height:15px;background:#ffd66b;z-index:4}.gift .tag{position:absolute;top:-12px;right:-2px;background:#fff4e5;color:#51233d;padding:7px 9px;border-radius:9px;font:700 11px system-ui;z-index:5}.reveal{max-width:650px;margin:25px auto 0;text-align:center;min-height:80px}
+/* days */
+.daybox{position:relative;overflow:hidden;min-height:270px;display:grid;place-items:center;text-align:center}.daymsg{font-size:clamp(28px,5vw,48px);line-height:1.15;max-width:700px}.daynum{font:700 12px system-ui;letter-spacing:.2em;color:#ffc4de}.dots{display:flex;gap:7px;justify-content:center;margin:15px}.dot{width:8px;height:8px;border-radius:50%;background:#fff3}.dot.on{background:#ff77b5}
+/* scratch */
+.scratchWrap{width:min(600px,95vw);margin:auto;position:relative;border-radius:22px;overflow:hidden;border:2px solid #fff4;box-shadow:0 25px 70px #0007}.secret{padding:60px 25px;background:linear-gradient(135deg,#fff0f6,#ffd0e5);color:#4a1835;text-align:center;min-height:250px;display:grid;place-items:center}.secret h3{font-size:34px;margin:0}.scratchWrap canvas{position:absolute;inset:0;width:100%;height:100%;cursor:crosshair}.scratchHint{text-align:center;font:13px system-ui;color:#dbc9e5;margin-top:12px}
+/* cartoons */
+.cartoonStage{min-height:330px;position:relative;overflow:hidden;border-radius:26px;background:linear-gradient(#21113d,#4b275d 70%,#1a1028);border:1px solid #fff2}.moon{position:absolute;right:12%;top:9%;width:70px;height:70px;border-radius:50%;background:#fff2c7;box-shadow:0 0 35px #fff2c788}.hill{position:absolute;bottom:-100px;width:70%;height:190px;border-radius:50%;background:#1a1028;left:-5%}.hill2{position:absolute;bottom:-110px;width:70%;height:190px;border-radius:50%;background:#120c21;right:-5%}.animal{position:absolute;bottom:42px;left:50%;transform:translateX(-50%);font-size:100px;animation:bob 1.5s infinite alternate}.animal2{left:25%;font-size:70px;animation-delay:.3s}.animal3{left:76%;font-size:75px;animation-delay:.6s}@keyframes bob{to{transform:translateX(-50%) translateY(-12px) rotate(3deg)}}.joke{position:absolute;left:50%;top:25px;transform:translateX(-50%);width:min(600px,90%);text-align:center;font-size:24px}.fan{position:absolute;right:15%;bottom:30px;font-size:45px;animation:spin 1s linear infinite}.wind{position:absolute;right:21%;bottom:75px;font-size:30px;animation:wind 1s infinite}@keyframes spin{to{transform:rotate(360deg)}}@keyframes wind{50%{transform:translateX(-35px);opacity:.2}}
+/* candle */
+.cake{font-size:120px;text-align:center;filter:drop-shadow(0 15px 20px #0007)}.flame{display:inline-block;animation:flicker .4s infinite alternate}.blown .flame{animation:none;opacity:0;transform:translateY(-40px) scale(.2);transition:.5s}.smoke{opacity:0;font-size:55px}.blown .smoke{opacity:1;animation:smoke 2s forwards}@keyframes flicker{to{transform:scale(1.12) rotate(2deg)}}@keyframes smoke{to{transform:translateY(-100px);opacity:0}}
+/* letter */
+.letter{max-width:760px;margin:auto;background:#fff5df;color:#3d2031;padding:42px 32px;border-radius:5px;box-shadow:0 25px 90px #0008;position:relative;transform:rotate(.4deg)}.letter:before{content:"✦";position:absolute;right:22px;top:18px;color:#d34f83;font-size:30px}.letter p{font-size:18px;line-height:1.9;margin:13px 0}.signature{font-size:24px;text-align:right;margin-top:28px}.line{height:1px;background:#b58b9b66;margin:18px 0}
+/* final */
+.final{min-height:100svh;text-align:center;background:radial-gradient(circle,#5d2a69 0,#190b2d 45%,#08040d 100%)}.final .big{font-size:clamp(50px,10vw,100px);margin:0}.final .message{font-size:clamp(24px,4vw,42px);line-height:1.25;max-width:800px;margin:25px auto}.seal{display:inline-grid;place-items:center;width:120px;height:120px;border-radius:50%;border:2px solid #ffd66b;color:#ffd66b;font:700 12px system-ui;letter-spacing:.12em;margin:20px}
+/* progress */
+.progress{position:fixed;z-index:50;top:0;left:0;height:4px;background:linear-gradient(90deg,#ff5fa7,#ffd66b);width:0;transition:.2s}.topnav{position:fixed;z-index:40;bottom:14px;left:50%;transform:translateX(-50%);display:flex;gap:7px;padding:7px;background:#10091add;border:1px solid #fff2;border-radius:999px;backdrop-filter:blur(12px);max-width:94vw;overflow:auto}.topnav button{border:0;background:transparent;color:#fff;padding:7px 10px;border-radius:999px;font:700 11px system-ui;white-space:nowrap}.topnav button:hover{background:#fff1}.lock{filter:blur(3px);pointer-events:none;opacity:.35}.unlockNote{text-align:center;color:#ffd1e5;font:13px system-ui;margin-top:15px}
+@media(max-width:650px){.balloonGrid{grid-template-columns:repeat(2,1fr)}.section{padding:65px 13px}.card{padding:20px}.letter{padding:28px 21px}.letter p{font-size:16px}.topnav button{padding:6px 8px}.doorframe{height:470px}}
+</style>
+</head>
+<body>
+<div class="progress" id="progress"></div><div class="stars" id="stars"></div><div class="hearts" id="hearts"></div>
+
+<!-- GATE -->
+<section class="screen" id="gateSection">
+ <div class="wrap gate">
+  <div class="eyebrow">A secret birthday universe • 06 October</div>
+  <h1 class="title">Someone special is at the door…</h1>
+  <p class="sub">This isn't just a webpage. It's a little journey made for the girl who became my sister because two hearts decided she was.</p>
+  <div class="doorframe">
+   <div class="heaven"><div style="font-size:42px">☁️ ✦ 💗 ✦ ☁️</div></div>
+   <div class="door" id="door"><div class="doorText">🎀<br><small style="font:700 12px system-ui;letter-spacing:.18em">KNOCK KNOCK</small></div><div class="knob"></div></div>
+  </div>
+  <div class="datebox"><input id="dob" inputmode="numeric" placeholder="Enter DOB • DDMMYYYY"><button class="btn" onclick="openDoor()">Open the door ✨</button></div>
+  <div class="error" id="gateError"></div>
+  <div class="tiny">Hint: the birthday written in the stars is 06 October 2010.</div>
+ </div>
+</section>
+
+<main id="journey" class="hidden">
+<!-- 1 -->
+<section class="section" id="welcome"><div class="wrap center">
+ <div class="chapter">01 / The door opened</div><h2>Welcome to your little universe, sis. 🌙</h2><div class="divider"></div>
+ <p class="sectionLead">For the next few minutes, don't rush. Click things. Break balloons. Solve things. Laugh. Read slowly. Somewhere between the silly cartoons and the serious words is the one thing I wanted you to feel: <b>you matter to me.</b></p>
+ <button class="btn" onclick="go('balloons')">Begin the birthday journey →</button>
+</div></section>
+
+<!-- 2 balloons -->
+<section class="section" id="balloons"><div class="wrap">
+ <div class="chapter center">02 / Pop the wishes</div><h2>Five balloons. Five tiny wishes. 🎈</h2><p class="sectionLead">Burst every balloon. Each one hides a different little piece of my birthday message.</p>
+ <div class="balloonGrid" id="balloonGrid"></div><div class="unlockNote" id="balloonStatus">0 / 5 wishes discovered</div>
+ </div></section>
+
+<!-- 3 bond cards -->
+<section class="section"><div class="wrap">
+ <div class="chapter center">03 / The bond</div><h2>Not every family tree grows from blood.</h2><div class="card center">
+ <p style="font-size:28px;line-height:1.4">“Blood made us strangers… but the heart made us siblings.”</p>
+ <p class="sub">Some people enter your life through a family tree. Some enter through a thousand conversations, silly fights, secrets, trust, and the quiet feeling of <i>“this person is mine to care about.”</i></p>
+ </div>
+ <div style="height:18px"></div><div class="card center"><p style="font-size:28px;line-height:1.4">“Some relationships are written by blood, ours was written by the heart.”</p></div>
+ </div></section>
+
+<!-- 4 puzzle -->
+<section class="section" id="puzzleSec"><div class="wrap card">
+ <div class="chapter center">04 / Unlock the next page</div><h2>A tiny puzzle from your annoying brother 😌</h2><p class="sectionLead">Arrange the numbers from 1 to 8. The empty square belongs at the end. Tap a tile beside the empty space to move it.</p>
+ <div class="puzzle" id="puzzle"></div><div class="status" id="puzzleStatus">Moves: 0</div><div id="puzzleWin" class="success hidden">🎉 PUZZLE SOLVED! You unlocked another birthday wish. 🎉</div>
+ </div></section>
+
+<!-- 5 congrats -->
+<section class="section"><div class="wrap center">
+ <div class="chapter">05 / Congratulations</div><h2>Okay, genius. You did it. 🥳</h2><p class="sectionLead">And because every solved puzzle deserves a reward…</p>
+ <div class="card"><p style="font-size:25px;line-height:1.6">“You were never ‘just’ an unblooded sister to me. You became my little sister the moment our hearts accepted it.”</p><p class="tiny">No certificate required. The bond is already official. 💗</p></div>
+ </div></section>
+
+<!-- 6 quiz -->
+<section class="section" id="quizSec"><div class="wrap card quiz">
+ <div class="chapter center">06 / Sister quiz</div><h2>How well do you know our bond? 🧠💗</h2><p class="sectionLead">Choose an answer for every question. There is no prize for speed. The prize is the next secret page.</p>
+ <div id="quiz"></div><button class="btn" style="display:block;margin:20px auto" onclick="checkQuiz()">Unlock my gift 🎁</button><div id="quizResult" class="result"></div>
+ </div></section>
+
+<!-- 7 gifts -->
+<section class="section lock" id="giftSec"><div class="wrap">
+ <div class="chapter center">07 / Choose carefully</div><h2>Three boxes. One is hiding the main birthday letter. 🎁</h2><p class="sectionLead">Pick any box. The first two give you little surprises. The correct one opens the main gift.</p>
+ <div class="gifts">
+  <div class="gift" onclick="openGift(1)"><div class="tag">BOX A</div><div class="lid"></div><div class="box"></div><div class="ribbonV"></div><div class="ribbonH"></div></div>
+  <div class="gift" onclick="openGift(2)"><div class="tag">BOX B</div><div class="lid"></div><div class="box"></div><div class="ribbonV"></div><div class="ribbonH"></div></div>
+  <div class="gift" onclick="openGift(3)"><div class="tag">BOX C</div><div class="lid"></div><div class="box"></div><div class="ribbonV"></div><div class="ribbonH"></div></div>
+ </div><div class="reveal" id="giftReveal"></div>
+ </div></section>
+
+<!-- 8 moving wishes -->
+<section class="section"><div class="wrap card">
+ <div class="chapter center">08 / Days, moments & tiny wishes</div><h2>A calendar made of feelings 📅</h2><p class="sectionLead">Press next. Each “day” is a little promise disguised as a birthday wish.</p>
+ <div class="daybox"><div><div class="daynum" id="dayNum">DAY 01</div><div class="daymsg" id="dayMsg"></div></div></div><div class="dots" id="dayDots"></div><div class="center"><button class="btn ghost" onclick="nextDay()">Next little wish →</button></div>
+ </div></section>
+
+<!-- 9 scratch -->
+<section class="section" id="scratch"><div class="wrap">
+ <div class="chapter center">09 / Scratch the secret</div><h2>There is something underneath… 👀</h2><p class="sectionLead">Rub/click-drag across the card. Tiny hearts will appear as you reveal the message.</p>
+ <div class="scratchWrap"><div class="secret"><div><h3>My secret wish for you 💗</h3><p style="font:17px/1.7 system-ui">May you always have people who protect your peace, celebrate your wins, listen to your nonsense, and remind you how valuable you are.</p></div></div><canvas id="scratch"></canvas></div><div class="scratchHint">Tip: on phone, drag your finger across the card.</div>
+ </div></section>
+
+<!-- 10 cartoon comedy -->
+<section class="section"><div class="wrap">
+ <div class="chapter center">10 / Emergency dose of cuteness</div><h2>Because serious emotions need a stupid break. 😂</h2>
+ <div class="cartoonStage">
+  <div class="moon"></div><div class="hill"></div><div class="hill2"></div>
+  <div class="joke" id="joke">Brother: “I made you a whole website.”<br>Sister: “Why?”<br>Brother: “Because apparently normal birthday wishes weren't dramatic enough.” 😭</div>
+  <div class="animal animal2">🐰</div><div class="animal">🐻</div><div class="animal animal3">🐱</div><div class="fan">🌀</div><div class="wind">💨💨</div>
+ </div>
+ <div class="center" style="margin-top:15px"><button class="btn ghost" onclick="nextJoke()">Another ridiculous joke →</button></div>
+ </div></section>
+
+<!-- 11 candle -->
+<section class="section"><div class="wrap card center">
+ <div class="chapter">11 / The tiny birthday ceremony</div><h2>Make a wish… and let the fan do the work. 🎂</h2><p class="sectionLead">Tap the fan button. Our tiny cartoon friends have prepared an extremely scientific candle-blowing machine.</p>
+ <div id="cakeStage"><div class="cake">🎂<span class="flame">🔥</span><span class="smoke">💨</span></div></div>
+ <button class="btn" onclick="blowCandle()">Turn on the birthday fan 🌀</button><p id="candleMsg" class="sub" style="margin-top:15px"></p>
+ </div></section>
+
+<!-- 12 bouquet -->
+<section class="section"><div class="wrap card center">
+ <div class="chapter">12 / A bouquet made of wishes</div><h2>Loading… one flower for every wish. 💐</h2><div id="bouquet" style="font-size:55px;line-height:1.7;max-width:650px;margin:auto;min-height:130px"></div><p id="bouquetText" class="sub">Preparing s
